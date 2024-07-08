@@ -21,7 +21,7 @@ services:
     volumes:
       - . /var/www/html
     ports:
-      - "50001:80"
+      - "5000:80"
 
 # create phpmyadmin service to view the database in GUI
   phpmyadmin:
