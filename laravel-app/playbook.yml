@@ -11,7 +11,7 @@
     ignore_errors: true
 # Make sure to change the image name with your personal dockerhub account and reposiroty   
   - name: remove used image
-    command: docker rmi triple3a/laravel-app
+    command: docker rmi ahmedalaa14/laravel-app
     ignore_errors: true
 # Make sure to change the image name with your personal dockerhub account and reposiroty 
   - name: build docker image from dockerfile
